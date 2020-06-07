@@ -61,26 +61,25 @@ h5 {
   border: solid 4px #2267b5;
   margin: 40px 32px;
 }
+
 .smalbox1 {
   width: 206px;
   height: 120px;
   background-color: #ffffff;
   border: 1px solid #93278f;
-  float: right;
+  display: inline-block;
   margin-top: 25px;
-  margin-left: 47px;
+  margin-right: 60px;
 }
+
 .smalbox1:first-child {
-  margin-right: 40.5px;
-}
-.smalbox1:last-child {
   margin-left: 32px;
 }
-.box3::after {
-  display: block;
-  content: "";
-  width: 100%;
+
+.smalbox1:last-child {
+  margin-right: 39px;
 }
+
 
 .childboxes {
   width: 75%;
@@ -89,6 +88,7 @@ h5 {
   border: solid 1px white;
   margin: 20px 20px;
 }
+
 .childboxes p {
   font-size: 14px;
   text-align: center;
@@ -102,7 +102,9 @@ h5 {
     url("fonts/MyriadProRegular.svg#MyriadProRegular") format("svg");
   color: #ffffff;
 }
+
 .box4 p {
+
   font-size: 51.1px;
   text-align: center;
   margin: 105px;
